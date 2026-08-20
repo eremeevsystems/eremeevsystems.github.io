@@ -3,53 +3,115 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Eremeev Systems</title>
+    <title>Eremeev Systems — Backend-разработка, API и интеграции</title>
+    <meta name="description" content="Eremeev Systems — небольшая инженерная команда: разработка backend-систем, REST API и интеграций. Java, Spring Boot, PostgreSQL.">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
+    <header class="hero">
         <h1>Eremeev Systems</h1>
+        <p class="tagline">Backend-разработка, API и интеграции</p>
+        <p class="intro">Небольшая инженерная команда, специализирующаяся на разработке backend-систем,
+        REST API и интеграций. Разрабатываем отдельные backend-модули и API, подключаемся
+        к существующим проектам, берём на себя части системы.</p>
         <nav>
-            <a href="#about">О нас</a>
-            <a href="#services">Услуги</a>
-            <a href="#contact">Контакты</a>
+            <a href="#skills">Компетенции</a>
+            <a href="#project">Проект</a>
+            <a href="#formats">Сотрудничество</a>
+            <a href="#contacts">Контакты</a>
         </nav>
     </header>
 
     <main>
-        <section id="about">
-            <h2>О нас</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        </section>
-
-        <section id="services">
-            <h2>Услуги</h2>
+        <section id="skills">
+            <h2>Компетенции</h2>
             <div class="cards">
                 <div class="card">
-                    <h3>Разработка</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+                    <h3>Backend-разработка</h3>
+                    <ul>
+                        <li>Java, Spring Boot, Hibernate / JPA</li>
+                        <li>разработка REST API</li>
+                        <li>бизнес-логика и серверные приложения</li>
+                        <li>авторизация и управление доступом</li>
+                    </ul>
                 </div>
                 <div class="card">
-                    <h3>Консалтинг</h3>
-                    <p>Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper.</p>
+                    <h3>Работа с данными</h3>
+                    <ul>
+                        <li>PostgreSQL, Redis</li>
+                        <li>проектирование реляционных БД</li>
+                        <li>миграции баз данных</li>
+                    </ul>
                 </div>
                 <div class="card">
-                    <h3>Поддержка</h3>
-                    <p>Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra.</p>
+                    <h3>Архитектура и интеграции</h3>
+                    <ul>
+                        <li>микросервисная архитектура</li>
+                        <li>интеграция внешних систем и сервисов</li>
+                        <li>API-интеграции</li>
+                        <li>клиент-серверные решения</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h3>Дополнительно</h3>
+                    <ul>
+                        <li>C#, Python</li>
+                        <li>Docker, Flyway, OpenAPI</li>
+                    </ul>
                 </div>
             </div>
         </section>
 
-        <section id="contact">
+        <section id="project">
+            <h2>Демонстрационный проект: RequestFlow Mini</h2>
+            <p>Система управления заявками, созданная для демонстрации нашего подхода
+            к разработке клиент-серверных приложений. Реализует типовой процесс обработки
+            внутренних заявок: создание → назначение исполнителя → выполнение → смена статуса →
+            история изменений.</p>
+            <p><strong>Реализовано:</strong> авторизация и JWT-аутентификация, ролевая модель доступа,
+            управление заявками и статусами, история изменений, REST API, C# WinForms-клиент,
+            PostgreSQL, миграции БД, Docker.</p>
+            <p class="stack">
+                <span>Java</span><span>Spring Boot</span><span>Hibernate</span><span>PostgreSQL</span><span>Flyway</span><span>C#</span><span>Docker</span><span>REST API</span><span>JWT</span>
+            </p>
+            <p><a class="button" href="https://github.com/eremeevsystems/requestflow">Исходный код на GitHub</a></p>
+        </section>
+
+        <section id="formats">
+            <h2>Форматы сотрудничества</h2>
+            <div class="cards">
+                <div class="card">
+                    <h3>Отдельная задача</h3>
+                    <p>Разработка API, backend-модуля, интеграции или доработка существующей системы
+                    с заранее определённым результатом.</p>
+                </div>
+                <div class="card">
+                    <h3>Backend-разработка</h3>
+                    <p>Берём на себя backend-часть или отдельный функциональный блок проекта.</p>
+                </div>
+                <div class="card">
+                    <h3>Подключение к команде</h3>
+                    <p>Подключаемся к работающему проекту и закрываем согласованный объём backend-задач.</p>
+                </div>
+                <div class="card">
+                    <h3>Разработка MVP</h3>
+                    <p>Помогаем реализовать первую рабочую версию нового продукта или внутренней системы.</p>
+                </div>
+            </div>
+            <p>Работаем удалённо, по договору, безналичная оплата, поэтапная разработка
+            с промежуточными результатами и передачей исходного кода и документации.</p>
+        </section>
+
+        <section id="contacts">
             <h2>Контакты</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.</p>
-            <p>Email: <a href="mailto:info@example.com">info@example.com</a></p>
+            <p>GitHub: <a href="https://github.com/eremeevsystems">github.com/eremeevsystems</a></p>
+            <p>Email: <a href="mailto:eremeev.systems@yandex.ru">eremeev.systems@yandex.ru</a></p>
+            <p>Исполнитель по договору: ИП Еремеев А. П.</p>
         </section>
     </main>
 
     <footer>
-        <p>&copy; 2026 Eremeev Systems. Lorem ipsum dolor sit amet.</p>
+        <p>&copy; 2026 Eremeev Systems · ИП Еремеев А. П.</p>
     </footer>
 </body>
 </html>
